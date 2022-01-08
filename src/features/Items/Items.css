@@ -1,0 +1,48 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.itemGrid{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.itemImg{
+    padding: 12px;
+}
+
+.itemTitle{
+    font-size: 1.2rem;
+    margin-left: 16px;
+    font-weight: 500;
+    margin: 14px;
+
+}
+
+.itemPrice{
+    font-size: 1.55rem;
+    margin-left: 16px;
+    font-weight: bold;
+    margin: 14px;
+
+}
+
+.imgDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.divBtn{
+    display: flex;
+    justify-content: center;
+    margin: 14px;
+}
+
+.BtnColor{
+    background-color: #fba64b;
+}

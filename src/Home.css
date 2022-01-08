@@ -1,0 +1,50 @@
+.home{
+    margin: 0 auto;
+    width: 77vw;
+    position: relative;
+    top: 97px;
+    /* border: 2px solid red; */
+}
+
+
+.bannerImg{
+    z-index: -1;
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1) 45%,rgba(0,0,0,0));
+}
+
+
+.electricList{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 35px;
+    row-gap: 1em;
+    place-items: center;
+    margin-top: -330px;
+    padding:18px;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+}
+.clothesList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 35px;
+    row-gap: 1em;
+    place-items: center;
+    margin-top: 4px;
+    padding:18px;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+}
+
+.groceryList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1em;
+    place-items: center;
+    margin-top: 4px;
+    padding:18px;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+}
+

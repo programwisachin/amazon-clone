@@ -1,0 +1,42 @@
+.cart{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 43px;
+    position: relative;
+    top: 99px;
+}
+
+.cartDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 77vw;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.cartTitle{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.cartImage{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cartPrice{
+    margin-top: 12px;
+    margin-bottom: 25px;
+    font-size: 1.55rem;
+    font-weight: bold;
+
+}
+
+.cardBtn{
+    display: flex;
+    justify-content: center;
+    margin: 27px;
+}

@@ -1,0 +1,18 @@
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 14%;
+    width: 77vw;
+    padding-left: 67px;
+}
+
+.renderList{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 35px;
+    row-gap: 1em;
+    place-items: center;
+    padding:18px;
+}
