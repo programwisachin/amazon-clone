@@ -1,5 +1,6 @@
 # Amazon Clone
 
+![preview](amazon-clone.png)
 
 ## Overview
 
