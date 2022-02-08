@@ -23,7 +23,7 @@ const Cart = () => {
 				<div className="cartTitle">{item.title}</div>
 				<div className="cartPrice">
 					<span style={{ fontSize: "1.3rem", fontWeight: "400" }}>
-						Starting from &#x20B9
+						Starting from ₹
 					</span>
 					{item.price}
 				</div>

@@ -32,7 +32,7 @@ const Items = ({ title, imgUrl, price, grid }) => {
 			<div className="itemTitle">{title.slice(0,50)}...</div>
 			<div className="itemPrice">
 				<span style={{ fontSize: "1.3rem", fontWeight: "400" }}>
-					Starting from &#x20B9 
+					Starting from ₹ 
 				</span>
 				{price}
 
